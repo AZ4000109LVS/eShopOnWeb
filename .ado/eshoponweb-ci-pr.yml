@@ -10,7 +10,7 @@ stages:
   jobs:
   - job: Build
     pool:
-      name: Ubuntu latest
+      name: Ubuntu
     steps:
     - task: DotNetCoreCLI@2
       displayName: Restore
